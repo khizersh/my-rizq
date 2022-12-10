@@ -35,14 +35,22 @@
 }
 
 .line-05 {
-  line-height: 0.5;
+  line-height: 1;
+  color: black;
+  margin:16px auto;
 }
 
 .width-60 {
   width: 60% !important;
 }
 .padding-left-100 {
-  padding-left: 100px;
+  padding-left: 200px;
+}
+
+.pos-started{
+  position: relative;
+  left: 244px;
+  bottom: 100px;
 }
 
 .font-poppins {
@@ -51,6 +59,10 @@
 
 .w-60 {
   width: 65%;
+}
+
+.width-62{
+  width: 62%;
 }
 
 .weight-500 {

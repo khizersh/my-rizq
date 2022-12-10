@@ -41,7 +41,7 @@ export const Stock = () => {
         informtion May Allah make it easy for us!
       </p>
       {/* FIRST CARD */}
-      <div className="row card ">
+      <div className="row card shadow pb-2">
         <div className="card-header bg-white shadow-lg">
           <h5 className="font-mon weight-600 d-inline">Qualitative Screeing</h5>{" "}
           <text className="border-radius-10 pills ml-3 px-2">
@@ -80,14 +80,19 @@ export const Stock = () => {
         <div className="col-12">
           <div className="row mb-4">
             <div className="col-12 col-lg-4 text-center ">
-              <div className="bg-light-grey padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
                 <CircularProgressbar
-                  value={66}
-                  text={66 + "%"}
+                  value={100}
+                  text={100 + "%"}
+                  strokeWidth={5} 
+               
                   styles={buildStyles({
-                    rotation: 0.25,
+                    rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
+                    
+                    background: true,
+                    backgroundPadding:40,
                     pathColor: `#2dce89`,
                     textColor: "#000000",
                     trailColor: "#fff",
@@ -98,12 +103,13 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="bg-light-grey padding-circle max-width-300 border-radius-5">
+              <div className="comp-2nd-card padding-circle max-width-300 border-radius-5">
                 <CircularProgressbar
                   value={4}
                   text={4 + "%"}
+                  strokeWidth={5} 
                   styles={buildStyles({
-                    rotation: 0.25,
+                    rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
                     pathColor: `#FFA500`,
@@ -116,12 +122,13 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="bg-light-grey padding-circle max-width-300 border-radius-5">
+              <div className="comp-3rd-card padding-circle max-width-300 border-radius-5">
                 <CircularProgressbar
                   value={10}
                   text={10 + "%"}
+                  strokeWidth={5} 
                   styles={buildStyles({
-                    rotation: 0.25,
+                    rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
                     pathColor: `#FF0000`,
@@ -137,17 +144,17 @@ export const Stock = () => {
         </div>
         <div className="col-12">
           <div className="row">
-            <div className="col-9">
-              <text className="font-12 text-muted mt-2 mb-3">
-                Organizations are only to be considered compliant for the
-                Qualitative Screening if the cumulative revenue from
+            <div className="col-7">
+              <text className="font-12 text-muted mt-2 mb-3 font-mon lint-height">
+                Organizations are only to be considered compliant for the 
+                <b> Qualitative Screening</b> if the cumulative revenue from
                 non-compliant activities and non-operating interest income does
                 not exceed 5% of their total income. Look into the detaild
                 results to detrmine wht non-compliant activities are
               </text>
             </div>
-            <div className="col-3 text-left">
-              <buttn className="btn btn-secondary">
+            <div className="col-5 text-center">
+              <buttn className="btn btn-secondary w-60 ml-5">
                 View detailed results{" "}
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
               </buttn>
@@ -156,7 +163,7 @@ export const Stock = () => {
         </div>
       </div>
       {/* SECOND CARD */}
-      <div className="row card mt-5">
+      <div className="row card mt-5 shadow pb-2">
         <div className="card-header bg-white shadow-lg">
           <h5 className="font-mon weight-600 d-inline">Qualitative Screeing</h5>{" "}
           <text className="border-radius-10 pills ml-3 px-2">
@@ -175,12 +182,13 @@ export const Stock = () => {
         <div className="col-12">
           <div className="row mb-4">
             <div className="col-12 col-lg-4 text-center ">
-              <div className="bg-light-grey padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
                 <CircularProgressbar
                   value={17.09}
+                  strokeWidth={5} 
                   text={17.09 + "%"}
                   styles={buildStyles({
-                    rotation: 0.25,
+                    rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
                     pathColor: `#2dce89`,
@@ -200,12 +208,13 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="bg-light-grey padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
                 <CircularProgressbar
                   value={17.09}
                   text={17.09 + "%"}
+                  strokeWidth={5} 
                   styles={buildStyles({
-                    rotation: 0.25,
+                    rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
                     pathColor: `#2dce89`,
@@ -225,12 +234,13 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="bg-light-grey padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
                 <CircularProgressbar
                   value={17.09}
+                  strokeWidth={5} 
                   text={17.09 + "%"}
                   styles={buildStyles({
-                    rotation: 0.25,
+                    rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
                     pathColor: `#2dce89`,

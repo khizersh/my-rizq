@@ -15,6 +15,16 @@
     font-size: 12px;
 }
 
+.comp-1st-card{
+    background: rgba(30, 195, 114, 0.05);
+}
+.comp-2nd-card{
+    background: rgba(240, 164, 57, 0.05);
+}
+.comp-3rd-card{
+    background: rgba(200, 11, 36, 0.05);
+}
+
 .padding-search{
     padding: 0px 200px;
 }
@@ -41,6 +51,12 @@
     line-height: 1.5;
 }
 
+.lint-height{
+    line-height: 0.5;
+}
+.w-60{
+    width: 65% !important;
+}
 .pills{
     border: 2px solid #e8bdbd;
     padding: 0px 0px 0px 0px;
