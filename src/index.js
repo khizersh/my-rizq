@@ -47,31 +47,31 @@ root.render(
   <BrowserRouter>
 
     <Switch>
-      <Route path="/" exact render={(props) => <Index {...props} />} />
-      <Route
+      <Route path="/" exact render={(props) => <><Index {...props} /><CardsFooter /></>} />
+      {/* <Route
         path="/landing-page"
         exact
-        render={(props) => <Landing {...props} />}
-      />
+        render={(props) => <><Landing {...props} /></>}
+      /> */}
       <Route
         path="/signup"
         exact
-        render={(props) => <Register {...props} />}
+        render={(props) => <><Register {...props} /><CardsFooter /></>}
       />
       <Route
         path="/profile-page"
         exact
-        render={(props) => <Profile {...props} />}
+        render={(props) => <><Profile {...props} /><CardsFooter /></>}
       />
       <Route
         path="/signin"
         exact
-        render={(props) => <Login {...props} />}
+        render={(props) => <><Login {...props} /><CardsFooter /></>}
       />
       <Route
         path="/pricing"
         exact
-        render={(props) => <Pricing {...props} />}
+        render={(props) => <><Pricing {...props} /><CardsFooter /></>}
       />
       <Route
         path="/dashboard/halal-stock-search"
@@ -100,6 +100,6 @@ root.render(
       />
       <Redirect to="/" />
     </Switch>
-    <CardsFooter />
+    {/* <CardsFooter /> */}
   </BrowserRouter>
 );
