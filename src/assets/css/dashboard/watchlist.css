@@ -12,3 +12,15 @@
     padding: 5px 15px;
 }
   
+
+.width-pill{
+  width: 208px;
+}
+
+.watchlist-bg{
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.border-radius-8{
+  border-radius: 8px;
+}

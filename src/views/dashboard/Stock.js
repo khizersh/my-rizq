@@ -80,7 +80,7 @@ export const Stock = () => {
         <div className="col-12">
           <div className="row mb-4">
             <div className="col-12 col-lg-4 text-center ">
-              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle  border-radius-5">
                 <CircularProgressbar
                   value={100}
                   text={100 + "%"}
@@ -103,7 +103,7 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="comp-2nd-card padding-circle max-width-300 border-radius-5">
+              <div className="comp-2nd-card padding-circle  border-radius-5">
                 <CircularProgressbar
                   value={4}
                   text={4 + "%"}
@@ -122,7 +122,7 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="comp-3rd-card padding-circle max-width-300 border-radius-5">
+              <div className="comp-3rd-card padding-circle  border-radius-5">
                 <CircularProgressbar
                   value={10}
                   text={10 + "%"}
@@ -182,7 +182,7 @@ export const Stock = () => {
         <div className="col-12">
           <div className="row mb-4">
             <div className="col-12 col-lg-4 text-center ">
-              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle  border-radius-5">
                 <CircularProgressbar
                   value={17.09}
                   strokeWidth={5} 
@@ -208,7 +208,7 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle  border-radius-5">
                 <CircularProgressbar
                   value={17.09}
                   text={17.09 + "%"}
@@ -234,7 +234,7 @@ export const Stock = () => {
               </div>
             </div>
             <div className="col-12 col-lg-4 text-center ">
-              <div className="comp-1st-card padding-circle max-width-300 border-radius-5">
+              <div className="comp-1st-card padding-circle  border-radius-5">
                 <CircularProgressbar
                   value={17.09}
                   strokeWidth={5} 

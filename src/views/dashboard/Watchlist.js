@@ -94,17 +94,17 @@ const Watchlist = () => {
     },[sort])
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mb-5">
       <div className="row text-left mb-3">
-        <div className="col-12">
-          <button className="btn bg-green text-white btn-sm px-3 font-12">
+        <div className="col-12 ">
+          <button className="btn bg-green text-white btn  font-12">
             My Watchlist
           </button>
         </div>
       </div>
       <div className="row">
         <div className="col-12">
-          <div className="card  border-radius-5 py-2 ">
+          <div className="card shadow border-radius-5 py-2 ">
             <div className="d-flex elem-end">
               <h5 className="font-poppins text-black weight-600 ml-3 d-inline">
                 My Watchlist
@@ -120,7 +120,7 @@ const Watchlist = () => {
       </div>
       <div className="row mt-5">
         <div className="col-12">
-          <div className="card bg-white shadow">
+          <div className="card watchlist-bg border-radius-8 shadow">
             <table class="table custom-table">
               <thead>
                 <tr>
@@ -158,12 +158,12 @@ const Watchlist = () => {
               </thead>
               <tbody>
                 {array.length > 0 ? array.map((data , ind) => <tr>
-                  <th className="text-black weight-400 font-poppins">{data.symbol}</th>
-                  <th className="text-black weight-400 font-poppins">{data.name}</th>
-                  <th className="text-black weight-400 font-poppins">{data.price}</th>
-                  <th className="text-black weight-400 font-poppins"><span className={`border-radius-5 weight-400 font-15 text-white status-padding ${data.status?.includes('Non') ? "bg-danger" : " bg-green"}`}>{data.status}</span></th>
-                  <th className="text-black weight-400 font-poppins">{data.marketCap}</th>
-                  <th className="text-black weight-400 font-poppins">{data.debtLevel}</th>
+                  <th className="text-black weight-600 font-mon font-14">{data.symbol}</th>
+                  <th className="text-black weight-600 font-mon font-14">{data.name}</th>
+                  <th className="text-black weight-600 font-mon font-14">{data.price}</th>
+                  <th className="text-black text-center weight-400 font-mon font-14"><p className={`border-radius-5 width-pill weight-400 font-15 text-white status-padding ${data.status?.includes('Non') ? "bg-danger" : " bg-green"}`}>{data.status}</p></th>
+                  <th className="text-black weight-600 font-mon font-14">{data.marketCap}</th>
+                  <th className="text-black weight-600 font-mon font-14">{data.debtLevel}</th>
                 </tr>) : <></>}
               </tbody>
             </table>
