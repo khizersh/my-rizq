@@ -5,6 +5,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 export const Stock = () => {
   const percentage = 66;
+  const greenStroke = '#1EC372';
   return (
     <div className="container-fluid">
       <div className="row card shadow-sm bg-white p-3">
@@ -25,10 +26,10 @@ export const Stock = () => {
               </text>{" "}
             </div>
             <div className="col-12 col-lg-4 text-right">
-              <text className="d-block font-10 text-muted line-height-1">
+              <text className="d-block font-10  text-stock-grey line-height-1">
                 Updated as of January 1 2022
               </text>
-              <text className="d-block font-10 text-muted line-height-1">
+              <text className="d-block font-10 line-height-1 text-stock-grey">
                 Followinf AAQIFI standard
               </text>
             </div>
@@ -43,7 +44,7 @@ export const Stock = () => {
       {/* FIRST CARD */}
       <div className="row card shadow pb-2">
         <div className="card-header bg-white shadow-lg">
-          <h5 className="font-mon weight-600 d-inline">Qualitative Screeing</h5>{" "}
+          <h5 className="font-mon weight-600 d-inline text-black">Qualitative Screeing</h5>{" "}
           <text className="border-radius-10 pills ml-3 px-2">
             <img
               width={"13px"}
@@ -93,7 +94,7 @@ export const Stock = () => {
                     
                     background: true,
                     backgroundPadding:40,
-                    pathColor: `#2dce89`,
+                    pathColor: '#1EC372',
                     textColor: "#000000",
                     trailColor: "#fff",
                     backgroundColor: "#3e98c7",
@@ -112,7 +113,7 @@ export const Stock = () => {
                     rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
-                    pathColor: `#FFA500`,
+                    pathColor: `#F0A439`,
                     textColor: "#000000",
                     trailColor: "#fff",
                     backgroundColor: "#3e98c7",
@@ -145,7 +146,7 @@ export const Stock = () => {
         <div className="col-12">
           <div className="row">
             <div className="col-7">
-              <text className="font-12 text-muted mt-2 mb-3 font-mon lint-height">
+              <text className="font-12  mt-2 mb-3 font-mon lint-height text-stock-grey">
                 Organizations are only to be considered compliant for the 
                 <b> Qualitative Screening</b> if the cumulative revenue from
                 non-compliant activities and non-operating interest income does
@@ -165,7 +166,7 @@ export const Stock = () => {
       {/* SECOND CARD */}
       <div className="row card mt-5 shadow pb-2">
         <div className="card-header bg-white shadow-lg">
-          <h5 className="font-mon weight-600 d-inline">Qualitative Screeing</h5>{" "}
+          <h5 className="font-mon weight-600 d-inline text-black">Quantitative Screeing</h5>{" "}
           <text className="border-radius-10 pills ml-3 px-2">
             <img
               width={"13px"}
@@ -191,7 +192,7 @@ export const Stock = () => {
                     rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
-                    pathColor: `#2dce89`,
+                    pathColor: '#1EC372',
                     textColor: "#000000",
                     trailColor: "#fff",
                     backgroundColor: "#3e98c7",
@@ -217,7 +218,7 @@ export const Stock = () => {
                     rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
-                    pathColor: `#2dce89`,
+                    pathColor: '#1EC372',
                     textColor: "#000000",
                     trailColor: "#fff",
                     backgroundColor: "#3e98c7",
@@ -243,7 +244,7 @@ export const Stock = () => {
                     rotation: 0.50,
                     textSize: "16px",
                     pathTransitionDuration: 0.5,
-                    pathColor: `#2dce89`,
+                    pathColor: '#1EC372',
                     textColor: "#000000",
                     trailColor: "#fff",
                     backgroundColor: "#3e98c7",
@@ -264,19 +265,19 @@ export const Stock = () => {
         <div className="col-12">
           <div className="row">
             <div className="col-4">
-              <text className="font-12 text-muted mt-2 mb-3">
+              <text className="font-12 text-stock-grey mt-2 mb-3">
                 Organizations are only to be considered compliant for the
                 Qualitative Screening if the cumulative revenue 
               </text>
             </div>
             <div className="col-4">
-              <text className="font-12 text-muted mt-2 mb-3">
+              <text className="font-12 text-stock-grey mt-2 mb-3">
                 Organizations are only to be considered compliant for the
                 Qualitative Screening if the cumulative revenue 
               </text>
             </div>
             <div className="col-4">
-              <text className="font-12 text-muted mt-2 mb-3">
+              <text className="font-12 text-stock-grey mt-2 mb-3">
                 Organizations are only to be considered compliant for the
                 Qualitative Screening if the cumulative revenue 
               </text>

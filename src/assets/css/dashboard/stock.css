@@ -39,7 +39,9 @@
 .max-width-300{
     max-width: 300px;
 }
-
+.text-stock-grey{
+    color: #949393 !important;
+}
 .font-10{
     font-size: 10px;
 }
