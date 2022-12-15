@@ -7,7 +7,7 @@ export const Stock = () => {
   const percentage = 66;
   const greenStroke = '#1EC372';
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mb-5">
       <div className="row card shadow-sm bg-white p-3">
         <div className="col-12 bg-green-opacity border-radius-10">
           <div className="row p-2">
